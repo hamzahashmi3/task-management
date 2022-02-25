@@ -1,0 +1,16 @@
+[2022-02-24T14:22:52.024Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-24T14:22:52.033Z][QUERY]: SHOW server_version;
+[2022-02-24T14:25:04.254Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-24T14:25:04.261Z][QUERY]: SHOW server_version;
+[2022-02-25T11:58:37.010Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-25T11:58:37.018Z][QUERY]: SHOW server_version;
+[2022-02-25T12:01:05.832Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-25T12:01:05.840Z][QUERY]: SHOW server_version;
+[2022-02-25T12:01:15.105Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-25T12:01:15.112Z][QUERY]: SHOW server_version;
+[2022-02-25T12:17:14.476Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-25T12:17:14.487Z][QUERY]: SHOW server_version;
+[2022-02-25T12:18:20.900Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-25T12:18:20.912Z][QUERY]: SHOW server_version;
+[2022-02-25T12:49:34.540Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-25T12:49:34.563Z][QUERY]: SHOW server_version;
