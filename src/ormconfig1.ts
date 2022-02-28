@@ -1,5 +1,4 @@
 import { ConnectionOptions } from 'typeorm';
-import { PostgresConnectionOptions } from 'typeorm/driver/postgres/PostgresConnectionOptions';
 
 // You can load you .env file here synchronously using dotenv package (not installed here),
 // import * as dotenv from 'dotenv';
@@ -11,7 +10,7 @@ import { PostgresConnectionOptions } from 'typeorm/driver/postgres/PostgresConne
 
 
 // Check typeORM documentation for more information.
-const config: PostgresConnectionOptions = {
+const config: ConnectionOptions = {
     type: 'postgres',
     host: 'localhost',
     port: 5432,
@@ -22,11 +21,11 @@ const config: PostgresConnectionOptions = {
     // autoLoadEntities: true,
 
     // We are using migrations, synchronize should be set to false.
-    synchronize: false,
+    synchronize: true,
 
     // Run migrations automatically,
     // you can disable this if you prefer running migration manually.
-    migrationsRun: false,
+    migrationsRun: true,
     logging: true,
     logger: 'file',
 
@@ -42,7 +41,12 @@ const config: PostgresConnectionOptions = {
         // to be compiled into dist/ folder.
         migrationsDir: 'src/migrations',
     },
+};
 
 
-}
+// "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js --config src/ormconfig.ts",
+// "typeorm:migrate": "yarn typeorm migration:generate -n",
+// "typeorm:run": "yarn typeorm migration:run",
+// "typeorm:revert": "yarn typeorm migration:revert",
+
 export = config

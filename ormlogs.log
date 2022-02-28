@@ -14,3 +14,256 @@
 [2022-02-25T12:18:20.912Z][QUERY]: SHOW server_version;
 [2022-02-25T12:49:34.540Z][QUERY]: SELECT * FROM current_schema()
 [2022-02-25T12:49:34.563Z][QUERY]: SHOW server_version;
+[2022-02-26T10:04:59.107Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T10:04:59.164Z][QUERY]: SHOW server_version;
+[2022-02-26T10:16:11.775Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T10:16:11.807Z][QUERY]: SHOW server_version;
+[2022-02-26T10:16:28.804Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T10:16:28.835Z][QUERY]: SHOW server_version;
+[2022-02-26T10:20:42.256Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T10:20:42.295Z][QUERY]: SHOW server_version;
+[2022-02-26T10:20:54.132Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T10:20:54.168Z][QUERY]: SHOW server_version;
+[2022-02-26T10:20:59.132Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T10:20:59.161Z][QUERY]: SHOW server_version;
+[2022-02-26T10:25:09.632Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T10:25:09.661Z][QUERY]: SHOW server_version;
+[2022-02-26T10:26:09.408Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T10:26:09.432Z][QUERY]: SHOW server_version;
+[2022-02-26T11:02:17.581Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:02:35.839Z][QUERY]: SHOW server_version;
+[2022-02-26T11:02:35.849Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:02:35.887Z][QUERY]: CREATE TABLE "migrations" ("id" SERIAL NOT NULL, "timestamp" bigint NOT NULL, "name" character varying NOT NULL, CONSTRAINT "PK_8c82d7f526340ab734260ea46be" PRIMARY KEY ("id"))
+[2022-02-26T11:02:36.000Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:02:36.005Z][QUERY]: CREATE TABLE "typeorm_metadata" ("type" character varying NOT NULL, "database" character varying, "schema" character varying, "table" character varying, "name" character varying, "value" text)
+[2022-02-26T11:02:36.028Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:02:36.031Z]No migrations are pending
+[2022-02-26T11:03:04.678Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:03:09.848Z][QUERY]: SHOW server_version;
+[2022-02-26T11:03:09.851Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:03:09.873Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:03:09.885Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:03:09.888Z]No migrations are pending
+[2022-02-26T11:06:22.117Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:06:22.152Z][QUERY]: SHOW server_version;
+[2022-02-26T11:06:27.533Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:06:33.055Z][QUERY]: SHOW server_version;
+[2022-02-26T11:06:33.058Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:06:33.069Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:06:33.074Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:06:33.077Z]No migrations are pending
+[2022-02-26T11:07:59.757Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:08:04.208Z][QUERY]: SHOW server_version;
+[2022-02-26T11:08:04.212Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:08:04.222Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:08:04.227Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:08:04.230Z]No migrations are pending
+[2022-02-26T11:13:10.547Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:13:15.387Z][QUERY]: SHOW server_version;
+[2022-02-26T11:13:15.391Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:13:15.402Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:13:15.409Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:13:15.411Z]No migrations are pending
+[2022-02-26T11:22:51.771Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:22:57.346Z][QUERY]: SHOW server_version;
+[2022-02-26T11:22:57.361Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:22:57.372Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:22:57.378Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:22:57.382Z]No migrations are pending
+[2022-02-26T11:25:18.177Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:25:22.260Z][QUERY]: SHOW server_version;
+[2022-02-26T11:25:22.267Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:25:22.285Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:25:22.291Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:25:22.294Z]No migrations are pending
+[2022-02-26T11:28:21.949Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:28:26.404Z][QUERY]: SHOW server_version;
+[2022-02-26T11:28:26.407Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:28:26.418Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:28:26.423Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:28:26.426Z]No migrations are pending
+[2022-02-26T11:28:42.751Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:28:44.650Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:28:44.677Z][QUERY]: SHOW server_version;
+[2022-02-26T11:29:07.578Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:29:07.959Z][QUERY]: SHOW server_version;
+[2022-02-26T11:29:07.962Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:29:07.971Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:29:07.976Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:29:07.978Z]0 migrations are already loaded in the database.
+[2022-02-26T11:29:07.978Z]1 migrations were found in the source code.
+[2022-02-26T11:29:07.979Z]1 migrations are new migrations that needs to be executed.
+[2022-02-26T11:29:07.979Z][QUERY]: START TRANSACTION
+[2022-02-26T11:29:07.980Z][QUERY]: CREATE TABLE "task" ("id" SERIAL NOT NULL, "title" character varying(70) NOT NULL, "discription" character varying(500), "status" integer NOT NULL DEFAULT '0', CONSTRAINT "PK_fb213f79ee45060ba925ecd576e" PRIMARY KEY ("id"))
+[2022-02-26T11:29:08.023Z][QUERY]: INSERT INTO "migrations"("timestamp", "name") VALUES ($1, $2) -- PARAMETERS: [1645871150535,"TaskMigration1645871150535"]
+[2022-02-26T11:29:08.031Z]Migration TaskMigration1645871150535 has been executed successfully.
+[2022-02-26T11:29:08.032Z][QUERY]: COMMIT
+[2022-02-26T11:30:11.382Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:30:11.423Z][QUERY]: SHOW server_version;
+[2022-02-26T11:31:42.220Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:31:42.250Z][QUERY]: SHOW server_version;
+[2022-02-26T11:31:58.850Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:32:02.436Z][QUERY]: SHOW server_version;
+[2022-02-26T11:32:02.438Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:32:02.447Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:32:02.452Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:32:02.455Z]No migrations are pending
+[2022-02-26T11:46:43.448Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:46:43.478Z][QUERY]: SHOW server_version;
+[2022-02-26T11:48:05.790Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:48:09.730Z][QUERY]: SHOW server_version;
+[2022-02-26T11:48:09.734Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:48:09.744Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:48:09.750Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:48:09.753Z]No migrations are pending
+[2022-02-26T11:51:47.741Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:51:51.440Z][QUERY]: SHOW server_version;
+[2022-02-26T11:51:51.443Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:51:51.455Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:51:51.460Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:51:51.463Z]No migrations are pending
+[2022-02-26T11:52:15.790Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T11:52:19.335Z][QUERY]: SHOW server_version;
+[2022-02-26T11:52:19.338Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-26T11:52:19.348Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-26T11:52:19.353Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-26T11:52:19.356Z]No migrations are pending
+[2022-02-26T12:00:03.357Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T12:00:03.397Z][QUERY]: SHOW server_version;
+[2022-02-26T12:00:17.127Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T12:00:17.161Z][QUERY]: SHOW server_version;
+[2022-02-26T12:00:29.782Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T12:00:29.812Z][QUERY]: SHOW server_version;
+[2022-02-26T12:00:53.754Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T12:00:53.795Z][QUERY]: SHOW server_version;
+[2022-02-26T12:07:51.443Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T12:07:51.470Z][QUERY]: SHOW server_version;
+[2022-02-26T12:08:00.025Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T12:08:00.048Z][QUERY]: SHOW server_version;
+[2022-02-26T12:10:10.969Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T12:10:10.996Z][QUERY]: SHOW server_version;
+[2022-02-26T12:11:12.175Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-26T12:11:12.204Z][QUERY]: SHOW server_version;
+[2022-02-27T07:32:42.485Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T07:32:42.529Z][QUERY]: SHOW server_version;
+[2022-02-27T07:52:29.118Z][QUERY]: START TRANSACTION
+[2022-02-27T07:52:29.127Z][QUERY]: INSERT INTO "task"("title", "description", "status") VALUES ($1, $2, $3) RETURNING "id", "status" -- PARAMETERS: ["task1","task number 1",0]
+[2022-02-27T07:52:29.136Z][FAILED QUERY]: INSERT INTO "task"("title", "description", "status") VALUES ($1, $2, $3) RETURNING "id", "status" -- PARAMETERS: ["task1","task number 1",0]
+[2022-02-27T07:52:29.136Z][QUERY ERROR]: error: column "description" of relation "task" does not exist
+[2022-02-27T07:52:29.137Z][QUERY]: ROLLBACK
+[2022-02-27T07:53:37.853Z][QUERY]: START TRANSACTION
+[2022-02-27T07:53:37.855Z][QUERY]: INSERT INTO "task"("title", "description", "status") VALUES ($1, $2, $3) RETURNING "id", "status" -- PARAMETERS: ["task1","task number 1",0]
+[2022-02-27T07:53:37.856Z][FAILED QUERY]: INSERT INTO "task"("title", "description", "status") VALUES ($1, $2, $3) RETURNING "id", "status" -- PARAMETERS: ["task1","task number 1",0]
+[2022-02-27T07:53:37.856Z][QUERY ERROR]: error: column "description" of relation "task" does not exist
+[2022-02-27T07:53:37.857Z][QUERY]: ROLLBACK
+[2022-02-27T07:54:09.443Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T07:54:09.468Z][QUERY]: SHOW server_version;
+[2022-02-27T07:54:25.407Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T07:54:25.434Z][QUERY]: SHOW server_version;
+[2022-02-27T07:54:43.801Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T07:54:43.832Z][QUERY]: SHOW server_version;
+[2022-02-27T07:54:58.770Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T07:55:25.741Z][QUERY]: SHOW server_version;
+[2022-02-27T07:55:25.745Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T07:55:25.780Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T07:55:25.785Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T07:55:25.792Z]No migrations are pending
+[2022-02-27T07:56:15.115Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T07:56:15.139Z][QUERY]: SHOW server_version;
+[2022-02-27T07:59:47.150Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T07:59:47.174Z][QUERY]: SHOW server_version;
+[2022-02-27T08:00:01.131Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:00:05.550Z][QUERY]: SHOW server_version;
+[2022-02-27T08:00:05.553Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T08:00:05.563Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T08:00:05.569Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T08:00:05.572Z]No migrations are pending
+[2022-02-27T08:00:54.444Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:00:58.881Z][QUERY]: SHOW server_version;
+[2022-02-27T08:00:58.885Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T08:00:58.901Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T08:00:58.908Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T08:00:58.912Z]No migrations are pending
+[2022-02-27T08:02:00.906Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:02:05.707Z][QUERY]: SHOW server_version;
+[2022-02-27T08:02:05.710Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T08:02:05.724Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T08:02:05.742Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T08:02:05.746Z]No migrations are pending
+[2022-02-27T08:04:44.946Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:04:45.006Z][QUERY]: SHOW server_version;
+[2022-02-27T08:05:04.746Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:05:09.960Z][QUERY]: SHOW server_version;
+[2022-02-27T08:05:09.964Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T08:05:09.981Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T08:05:09.990Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T08:05:09.996Z]No migrations are pending
+[2022-02-27T08:07:52.314Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:07:52.344Z][QUERY]: SHOW server_version;
+[2022-02-27T08:08:58.613Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:08:58.644Z][QUERY]: SHOW server_version;
+[2022-02-27T08:10:43.747Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:10:49.406Z][QUERY]: SHOW server_version;
+[2022-02-27T08:10:49.410Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T08:10:49.420Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T08:10:49.426Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T08:10:49.430Z]No migrations are pending
+[2022-02-27T08:31:09.864Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:31:09.888Z][QUERY]: SHOW server_version;
+[2022-02-27T08:32:27.751Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:32:31.773Z][QUERY]: SHOW server_version;
+[2022-02-27T08:32:31.777Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T08:32:31.792Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T08:32:31.799Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T08:32:31.803Z]No migrations are pending
+[2022-02-27T08:34:15.589Z][QUERY]: START TRANSACTION
+[2022-02-27T08:34:15.595Z][QUERY]: INSERT INTO "task"("title", "description", "status") VALUES ($1, $2, $3) RETURNING "id", "status" -- PARAMETERS: ["task1","task number 1",0]
+[2022-02-27T08:34:15.603Z][FAILED QUERY]: INSERT INTO "task"("title", "description", "status") VALUES ($1, $2, $3) RETURNING "id", "status" -- PARAMETERS: ["task1","task number 1",0]
+[2022-02-27T08:34:15.603Z][QUERY ERROR]: error: relation "task" does not exist
+[2022-02-27T08:34:15.604Z][QUERY]: ROLLBACK
+[2022-02-27T08:34:47.086Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:34:47.136Z][QUERY]: SHOW server_version;
+[2022-02-27T08:37:14.188Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:37:14.220Z][QUERY]: SHOW server_version;
+[2022-02-27T08:38:37.259Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:38:37.842Z][QUERY]: SHOW server_version;
+[2022-02-27T08:38:37.846Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T08:38:37.858Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T08:38:37.865Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T08:38:37.870Z]1 migrations are already loaded in the database.
+[2022-02-27T08:38:37.870Z]2 migrations were found in the source code.
+[2022-02-27T08:38:37.876Z]TaskMigration1645871150535 is the last executed migration. It was executed on Sat Feb 26 2022 15:25:50 GMT+0500 (Pakistan Standard Time).
+[2022-02-27T08:38:37.877Z]2 migrations are new migrations that needs to be executed.
+[2022-02-27T08:38:37.878Z][QUERY]: START TRANSACTION
+[2022-02-27T08:38:37.879Z][QUERY]: CREATE TABLE "task" ("id" SERIAL NOT NULL, "title" character varying(64) NOT NULL, "description" character varying(1024), "status" integer NOT NULL DEFAULT '0', CONSTRAINT "PK_fb213f79ee45060ba925ecd576e" PRIMARY KEY ("id"))
+[2022-02-27T08:38:37.929Z][QUERY]: INSERT INTO "migrations"("timestamp", "name") VALUES ($1, $2) -- PARAMETERS: [1645948776521,"Tasks1645948776521"]
+[2022-02-27T08:38:37.951Z]Migration Tasks1645948776521 has been executed successfully.
+[2022-02-27T08:38:37.951Z][QUERY]: CREATE TABLE "task" ("id" SERIAL NOT NULL, "title" character varying(64) NOT NULL, "description" character varying(1024), "status" integer NOT NULL DEFAULT '0', CONSTRAINT "PK_fb213f79ee45060ba925ecd576e" PRIMARY KEY ("id"))
+[2022-02-27T08:38:37.956Z][FAILED QUERY]: CREATE TABLE "task" ("id" SERIAL NOT NULL, "title" character varying(64) NOT NULL, "description" character varying(1024), "status" integer NOT NULL DEFAULT '0', CONSTRAINT "PK_fb213f79ee45060ba925ecd576e" PRIMARY KEY ("id"))
+[2022-02-27T08:38:37.956Z][QUERY ERROR]: error: relation "task" already exists
+[2022-02-27T08:38:37.957Z]Migration "Tasks1645949319395" failed, error: relation "task" already exists
+[2022-02-27T08:38:37.958Z][QUERY]: ROLLBACK
+[2022-02-27T08:39:08.738Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:39:08.775Z][QUERY]: SHOW server_version;
+[2022-02-27T08:39:40.411Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:39:40.442Z][QUERY]: SHOW server_version;
+[2022-02-27T08:40:18.296Z][QUERY]: SELECT * FROM current_schema()
+[2022-02-27T08:40:18.734Z][QUERY]: SHOW server_version;
+[2022-02-27T08:40:18.737Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'migrations'
+[2022-02-27T08:40:18.749Z][QUERY]: SELECT * FROM "information_schema"."tables" WHERE "table_schema" = 'public' AND "table_name" = 'typeorm_metadata'
+[2022-02-27T08:40:18.754Z][QUERY]: SELECT * FROM "migrations" "migrations" ORDER BY "id" DESC
+[2022-02-27T08:40:18.759Z]1 migrations are already loaded in the database.
+[2022-02-27T08:40:18.759Z]1 migrations were found in the source code.
+[2022-02-27T08:40:18.761Z]TaskMigration1645871150535 is the last executed migration. It was executed on Sat Feb 26 2022 15:25:50 GMT+0500 (Pakistan Standard Time).
+[2022-02-27T08:40:18.762Z]1 migrations are new migrations that needs to be executed.
+[2022-02-27T08:40:18.763Z][QUERY]: START TRANSACTION
+[2022-02-27T08:40:18.764Z][QUERY]: CREATE TABLE "task" ("id" SERIAL NOT NULL, "title" character varying(64) NOT NULL, "description" character varying(1024), "status" integer NOT NULL DEFAULT '0', CONSTRAINT "PK_fb213f79ee45060ba925ecd576e" PRIMARY KEY ("id"))
+[2022-02-27T08:40:18.812Z][QUERY]: INSERT INTO "migrations"("timestamp", "name") VALUES ($1, $2) -- PARAMETERS: [1645951170094,"Tasks1645951170094"]
+[2022-02-27T08:40:18.814Z]Migration Tasks1645951170094 has been executed successfully.
+[2022-02-27T08:40:18.815Z][QUERY]: COMMIT
+[2022-02-27T08:41:14.537Z][QUERY]: START TRANSACTION
+[2022-02-27T08:41:14.546Z][QUERY]: INSERT INTO "task"("title", "description", "status") VALUES ($1, $2, $3) RETURNING "id", "status" -- PARAMETERS: ["task1","task number 1",0]
+[2022-02-27T08:41:14.553Z][QUERY]: COMMIT
+[2022-02-27T08:41:38.952Z][QUERY]: START TRANSACTION
+[2022-02-27T08:41:38.954Z][QUERY]: INSERT INTO "task"("title", "description", "status") VALUES ($1, $2, $3) RETURNING "id", "status" -- PARAMETERS: ["task1","task number 1",0]
+[2022-02-27T08:41:38.957Z][QUERY]: COMMIT
